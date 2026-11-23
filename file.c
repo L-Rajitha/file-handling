@@ -7,7 +7,7 @@ int main()
     char name[20];
 
     fp = fopen("student.txt", "w");
-    fprintf(fp, "Rajitha");
+    fprintf(fp, "students");
     fclose(fp);
 
     fp = fopen("student.txt", "r");
